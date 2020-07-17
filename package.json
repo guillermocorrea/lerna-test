@@ -8,7 +8,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "bump-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
   },
   "author": "",
   "license": "ISC",
